@@ -8,7 +8,6 @@ import flyer from './assets/flyer.png'
   <div class="home-page">
     <section class="page-heading">
       <div class="eyebrow">ALL4RUNNING CROSSCIRCUIT</div>
-      <h1>Beste crossers,</h1>
     </section>
 
     <figure class="home-flyer">
