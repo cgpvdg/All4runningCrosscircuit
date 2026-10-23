@@ -1,0 +1,266 @@
+{
+  "season": "2026",
+  "email": "crosscircuit@avwieringermeer.nl",
+  "registrationUrl": "https://inschrijven.nl/form/2026102451342-nl",
+  "pages": [
+    {
+      "slug": "kalender",
+      "label": "Wedstrijdkalender",
+      "title": "Vijf crossen. Eén circuit.",
+      "intro": "Van het park tot de duinen. Ontdek de wedstrijden van het All4running Crosscircuit en beleef het crossseizoen samen.",
+      "body": "Bekijk per wedstrijd het programma, de afstanden en de praktische informatie."
+    },
+    {
+      "slug": "hall-of-fame",
+      "label": "Hall of fame",
+      "title": "Een plek in de historie.",
+      "intro": "Een plek in de historie van het All4running Crosscircuit. Bekijk de erelijst per jaar."
+    },
+    {
+      "slug": "over",
+      "label": "Over crosscircuit",
+      "title": "Samen het veld in.",
+      "intro": "Alles over de categorieën, puntenverdeling en het klassement van het All4running Crosscircuit."
+    },
+    {
+      "slug": "inschrijven",
+      "label": "Inschrijven",
+      "title": "Jouw seizoen begint hier.",
+      "intro": "Schrijf je in voor het gehele All4running Crosscircuit of kies een losse wedstrijd."
+    },
+    {
+      "slug": "voorwaarden",
+      "label": "Algemene voorwaarden",
+      "title": "Algemene voorwaarden en reglement",
+      "intro": "Algemene voorwaarden en reglement voor de evenementen van het All4running Crosscircuit 2026."
+    },
+    {
+      "slug": "uitslagen",
+      "label": "Uitslagen",
+      "title": "Elke finish telt.",
+      "intro": "Bekijk hier de uitslagen van het All4running Crosscircuit. Na iedere wedstrijd vind je hier de resultaten.",
+      "body": "Het nieuwe seizoen ligt voor ons. Zodra de eerste wedstrijd is gelopen, verschijnen de uitslagen op deze pagina."
+    },
+    {
+      "slug": "klassement",
+      "label": "Klassement",
+      "title": "Het circuit in cijfers.",
+      "intro": "Alle prestaties komen samen in het klassement.",
+      "body": "Het klassement en de categorieën worden hier later toegevoegd."
+    },
+    {
+      "slug": "fotoalbum",
+      "label": "Fotoalbum",
+      "title": "Modder. Inspanning. Plezier.",
+      "intro": "Herbeleef straks de mooiste momenten van het crosscircuit.",
+      "body": "Na de wedstrijden vind je hier de fotoalbums. Er zijn op dit moment nog geen albums toegevoegd."
+    }
+  ],
+  "races": [
+    {
+      "name": "Parkcross Hoorn",
+      "location": "Hoorn",
+      "day": "25",
+      "month": "okt",
+      "url": "https://www.avhollandia.nl/parkcross/",
+      "venue": "Risdammerhout, Hoorn",
+      "parking": "Bij Sportpark de Blauwe Berg 2, 1625 NT Hoorn",
+      "starts": [
+        {
+          "time": "09:45",
+          "category": "Jeugd t/m 9 jaar",
+          "distance": 1000
+        },
+        {
+          "time": "09:55",
+          "category": "10 t/m 12 jaar",
+          "distance": 1000
+        },
+        {
+          "time": "10:05",
+          "category": "13 t/m 15 jaar",
+          "distance": 1850
+        },
+        {
+          "time": "10:20",
+          "category": "16 t/m 18 jaar",
+          "distance": 2700
+        },
+        {
+          "time": "10:45",
+          "category": "Dames en heren recreanten",
+          "distance": 5500
+        },
+        {
+          "time": "11:45",
+          "category": "Heren en dames recreanten",
+          "distance": 7800
+        }
+      ],
+      "registrationUrl": "https://inschrijven.nl/form/2026102551342-nl"
+    },
+    {
+      "name": "AVW Dijkgatboscross",
+      "location": "Wieringerwerf",
+      "day": "8",
+      "month": "nov",
+      "url": "https://www.avwieringermeer.nl/dijkgatboscross",
+      "venue": "Dijkgatbos, Wieringerwerf",
+      "parking": "Parkeerplaats, Noorderdijkweg 23A, 1771 MJ Wieringerwerf",
+      "starts": [
+        {
+          "time": "10:00",
+          "category": "Jeugd t/m 9 jaar",
+          "distance": 1000
+        },
+        {
+          "time": "10:10",
+          "category": "10 t/m 12 jaar",
+          "distance": 1500
+        },
+        {
+          "time": "10:25",
+          "category": "13 t/m 15 jaar",
+          "distance": 2500
+        },
+        {
+          "time": "10:45",
+          "category": "16 t/m 18 jaar",
+          "distance": 4000
+        },
+        {
+          "time": "11:15",
+          "category": "Dames en heren recreanten",
+          "distance": 6000
+        },
+        {
+          "time": "12:00",
+          "category": "Heren en dames recreanten",
+          "distance": 10000
+        }
+      ],
+      "registrationUrl": "https://inschrijven.nl/form/2026110851342-nl"
+    },
+    {
+      "name": "SAV-cross",
+      "location": "Grootebroek",
+      "day": "22",
+      "month": "nov",
+      "url": "https://www.savatletiek.nl/event/sav-cross",
+      "venue": "Let op: de wedstrijd wordt gehouden nabij de baan van SAV.",
+      "parking": "",
+      "starts": [
+        {
+          "time": "10:00",
+          "category": "Jeugd t/m 9 jaar",
+          "distance": 1200
+        },
+        {
+          "time": "10:15",
+          "category": "10 t/m 12 jaar",
+          "distance": 1500
+        },
+        {
+          "time": "10:25",
+          "category": "13 t/m 15 jaar",
+          "distance": 2700
+        },
+        {
+          "time": "10:45",
+          "category": "16 t/m 18 jaar",
+          "distance": 5100
+        },
+        {
+          "time": "10:45",
+          "category": "Dames en heren recreanten",
+          "distance": 5100
+        },
+        {
+          "time": "11:30",
+          "category": "Heren en dames recreanten",
+          "distance": 9400
+        }
+      ],
+      "registrationUrl": "https://inschrijven.nl/form/2026112251342-nl"
+    },
+    {
+      "name": "Noordkop Duincross",
+      "location": "Den Helder",
+      "day": "6",
+      "month": "dec",
+      "url": "https://www.svnoordkopatletiek.nl/event/duincross-3/",
+      "venue": "Sportcomplex De Streepjesberg",
+      "parking": "Bremstraat 2D, 1783 JG Den Helder",
+      "starts": [
+        {
+          "time": "10:15",
+          "category": "Jeugd t/m 9 jaar",
+          "distance": 1000
+        },
+        {
+          "time": "10:25",
+          "category": "10 t/m 12 jaar",
+          "distance": 1000
+        },
+        {
+          "time": "10:35",
+          "category": "13 t/m 15 jaar",
+          "distance": 2000
+        },
+        {
+          "time": "",
+          "category": "16 t/m 18 jaar",
+          "distance": 3000
+        },
+        {
+          "time": "11:15",
+          "category": "Dames en heren recreanten",
+          "distance": 6000
+        },
+        {
+          "time": "12:00",
+          "category": "Heren en dames recreanten",
+          "distance": 10000
+        }
+      ],
+      "registrationUrl": "https://inschrijven.nl/form/2026120651342-nl"
+    },
+    {
+      "name": "St Georgecross",
+      "location": "Spierdijk",
+      "day": "13",
+      "month": "dec",
+      "url": "http://www.stgeorgecross.nl/?page_id=717",
+      "venue": "Omnivereniging St George, Spierdijk",
+      "parking": "Oeverland 2, 1641 LZ Spierdijk",
+      "starts": [
+        {
+          "time": "10:30",
+          "category": "Jeugd t/m 12 jaar",
+          "distance": 1600
+        },
+        {
+          "time": "10:45",
+          "category": "13 t/m 15 jaar",
+          "distance": 4200
+        },
+        {
+          "time": "10:45",
+          "category": "16 t/m 18 jaar",
+          "distance": 4200
+        },
+        {
+          "time": "10:45",
+          "category": "Recreanten",
+          "distance": 4200
+        },
+        {
+          "time": "11:30",
+          "category": "Wedstrijd dames en heren",
+          "distance": 8200
+        }
+      ],
+      "registrationUrl": "https://inschrijven.nl/form/2026121351342-nl"
+    }
+  ]
+}
