@@ -69,7 +69,7 @@
         {
           "time": "09:45",
           "category": "U8 t/m U10",
-          "birthYears": [2019,2018,2017],
+          "birthYears": ["2019 en later",2018,2017],
           "distance": 1000
         },
         {
@@ -81,13 +81,13 @@
         {
           "time": "10:05",
           "category": "U14 t/m U16",
-          "birthYears": [2014,2013],
+          "birthYears": [2014,2013,2012,2011],
           "distance": 1850
         },
         {
           "time": "10:20",
           "category": "U17 t/m U20",
-          "birthYears": [2012,2011,2010,2009,2008,2007],
+          "birthYears": [2010,2009,2008,2007],
           "distance": 2700
         },
         {
@@ -115,7 +115,7 @@
         {
           "time": "10:00",
           "category": "U8 t/m U10",
-          "birthYears": [2019,2018,2017],
+          "birthYears": ["2019 en later",2018,2017],
           "distance": 1000
         },
         {
@@ -127,13 +127,13 @@
         {
           "time": "10:25",
           "category": "U14 t/m U16",
-          "birthYears": [2014,2013],
+          "birthYears": [2014,2013,2012,2011],
           "distance": 2500
         },
         {
           "time": "10:45",
           "category": "U17 t/m U20",
-          "birthYears": [2012,2011,2010,2009,2008,2007],
+          "birthYears": [2010,2009,2008,2007],
           "distance": 4000
         },
         {
@@ -161,7 +161,7 @@
         {
           "time": "10:00",
           "category": "U8 t/m U10",
-          "birthYears": [2019,2018,2017],
+          "birthYears": ["2019 en later",2018,2017],
           "distance": 1200
         },
         {
@@ -173,13 +173,13 @@
         {
           "time": "10:25",
           "category": "U14 t/m U16",
-          "birthYears": [2014,2013],
+          "birthYears": [2014,2013,2012,2011],
           "distance": 2700
         },
         {
           "time": "10:45",
           "category": "U17 t/m U20",
-          "birthYears": [2012,2011,2010,2009,2008,2007],
+          "birthYears": [2010,2009,2008,2007],
           "distance": 5100
         },
         {
@@ -207,7 +207,7 @@
         {
           "time": "10:15",
           "category": "U8 t/m U10",
-          "birthYears": [2019,2018,2017],
+          "birthYears": ["2019 en later",2018,2017],
           "distance": 1000
         },
         {
@@ -219,13 +219,13 @@
         {
           "time": "10:35",
           "category": "U14 t/m U16",
-          "birthYears": [2014,2013],
+          "birthYears": [2014,2013,2012,2011],
           "distance": 2000
         },
         {
           "time": "",
           "category": "U17 t/m U20",
-          "birthYears": [2012,2011,2010,2009,2008,2007],
+          "birthYears": [2010,2009,2008,2007],
           "distance": 3000
         },
         {
@@ -253,19 +253,19 @@
         {
           "time": "10:30",
           "category": "U8 t/m U13",
-          "birthYears": [2019,2018,2017,2016,2015],
+          "birthYears": ["2019 en later",2018,2017,2016,2015],
           "distance": 1600
         },
         {
           "time": "10:45",
           "category": "U14 t/m U16",
-          "birthYears": [2014,2013],
+          "birthYears": [2014,2013,2012,2011],
           "distance": 4200
         },
         {
           "time": "10:45",
           "category": "U17 t/m U20",
-          "birthYears": [2012,2011,2010,2009,2008,2007],
+          "birthYears": [2010,2009,2008,2007],
           "distance": 4200
         },
         {
