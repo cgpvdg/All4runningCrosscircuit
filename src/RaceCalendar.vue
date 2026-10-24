@@ -14,7 +14,7 @@ defineProps({ races: { type: Array, required: true } })
         <table class="calendar-program">
           <caption class="visually-hidden">Startprogramma {{ race.name }}</caption>
           <thead><tr><th scope="col">Starttijd</th><th scope="col">Categorie</th><th scope="col">Afstand</th></tr></thead>
-          <tbody><tr v-for="(start, index) in race.starts" :key="index"><td><time v-if="start.time">{{ start.time }}</time><span v-else class="time-unknown">Niet vermeld</span></td><th scope="row">{{ start.category }}</th><td>{{ start.distance.toLocaleString('nl-NL') }} m</td></tr></tbody>
+          <tbody><tr v-for="(start, index) in race.starts" :key="index"><td><time v-if="start.time">{{ start.time }}</time><span v-else class="time-unknown">Niet vermeld</span></td><th scope="row">{{ start.category }}<span v-if="start.birthYears" class="category-birth-years">Geboortejaren: {{ start.birthYears.join(', ') }}</span></th><td>{{ start.distance.toLocaleString('nl-NL') }} m</td></tr></tbody>
         </table>
       </div>
       <dl class="calendar-location"><div><dt>Locatie</dt><dd>{{ race.venue }}</dd></div><div><dt>Parkeren</dt><dd>{{ race.parking || 'Parkeerinformatie nog niet vermeld.' }}</dd></div></dl>

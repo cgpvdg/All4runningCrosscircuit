@@ -68,22 +68,26 @@
       "starts": [
         {
           "time": "09:45",
-          "category": "Jeugd t/m 9 jaar",
+          "category": "U8 t/m U10",
+          "birthYears": [2019,2018,2017],
           "distance": 1000
         },
         {
           "time": "09:55",
-          "category": "10 t/m 12 jaar",
+          "category": "U11 t/m U13",
+          "birthYears": [2016,2015],
           "distance": 1000
         },
         {
           "time": "10:05",
-          "category": "13 t/m 15 jaar",
+          "category": "U14 t/m U16",
+          "birthYears": [2014,2013],
           "distance": 1850
         },
         {
           "time": "10:20",
-          "category": "16 t/m 18 jaar",
+          "category": "U17 t/m U20",
+          "birthYears": [2012,2011,2010,2009,2008,2007],
           "distance": 2700
         },
         {
@@ -110,22 +114,26 @@
       "starts": [
         {
           "time": "10:00",
-          "category": "Jeugd t/m 9 jaar",
+          "category": "U8 t/m U10",
+          "birthYears": [2019,2018,2017],
           "distance": 1000
         },
         {
           "time": "10:10",
-          "category": "10 t/m 12 jaar",
+          "category": "U11 t/m U13",
+          "birthYears": [2016,2015],
           "distance": 1500
         },
         {
           "time": "10:25",
-          "category": "13 t/m 15 jaar",
+          "category": "U14 t/m U16",
+          "birthYears": [2014,2013],
           "distance": 2500
         },
         {
           "time": "10:45",
-          "category": "16 t/m 18 jaar",
+          "category": "U17 t/m U20",
+          "birthYears": [2012,2011,2010,2009,2008,2007],
           "distance": 4000
         },
         {
@@ -152,22 +160,26 @@
       "starts": [
         {
           "time": "10:00",
-          "category": "Jeugd t/m 9 jaar",
+          "category": "U8 t/m U10",
+          "birthYears": [2019,2018,2017],
           "distance": 1200
         },
         {
           "time": "10:15",
-          "category": "10 t/m 12 jaar",
+          "category": "U11 t/m U13",
+          "birthYears": [2016,2015],
           "distance": 1500
         },
         {
           "time": "10:25",
-          "category": "13 t/m 15 jaar",
+          "category": "U14 t/m U16",
+          "birthYears": [2014,2013],
           "distance": 2700
         },
         {
           "time": "10:45",
-          "category": "16 t/m 18 jaar",
+          "category": "U17 t/m U20",
+          "birthYears": [2012,2011,2010,2009,2008,2007],
           "distance": 5100
         },
         {
@@ -194,22 +206,26 @@
       "starts": [
         {
           "time": "10:15",
-          "category": "Jeugd t/m 9 jaar",
+          "category": "U8 t/m U10",
+          "birthYears": [2019,2018,2017],
           "distance": 1000
         },
         {
           "time": "10:25",
-          "category": "10 t/m 12 jaar",
+          "category": "U11 t/m U13",
+          "birthYears": [2016,2015],
           "distance": 1000
         },
         {
           "time": "10:35",
-          "category": "13 t/m 15 jaar",
+          "category": "U14 t/m U16",
+          "birthYears": [2014,2013],
           "distance": 2000
         },
         {
           "time": "",
-          "category": "16 t/m 18 jaar",
+          "category": "U17 t/m U20",
+          "birthYears": [2012,2011,2010,2009,2008,2007],
           "distance": 3000
         },
         {
@@ -236,17 +252,20 @@
       "starts": [
         {
           "time": "10:30",
-          "category": "Jeugd t/m 12 jaar",
+          "category": "U8 t/m U13",
+          "birthYears": [2019,2018,2017,2016,2015],
           "distance": 1600
         },
         {
           "time": "10:45",
-          "category": "13 t/m 15 jaar",
+          "category": "U14 t/m U16",
+          "birthYears": [2014,2013],
           "distance": 4200
         },
         {
           "time": "10:45",
-          "category": "16 t/m 18 jaar",
+          "category": "U17 t/m U20",
+          "birthYears": [2012,2011,2010,2009,2008,2007],
           "distance": 4200
         },
         {
