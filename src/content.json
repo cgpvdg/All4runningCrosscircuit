@@ -75,13 +75,13 @@
         {
           "time": "09:55",
           "category": "U11 t/m U13",
-          "birthYears": [2016,2015],
+          "birthYears": [2016,2015,2014],
           "distance": 1000
         },
         {
           "time": "10:05",
           "category": "U14 t/m U16",
-          "birthYears": [2014,2013,2012,2011],
+          "birthYears": [2013,2012,2011],
           "distance": 1850
         },
         {
@@ -121,13 +121,13 @@
         {
           "time": "10:10",
           "category": "U11 t/m U13",
-          "birthYears": [2016,2015],
+          "birthYears": [2016,2015,2014],
           "distance": 1500
         },
         {
           "time": "10:25",
           "category": "U14 t/m U16",
-          "birthYears": [2014,2013,2012,2011],
+          "birthYears": [2013,2012,2011],
           "distance": 2500
         },
         {
@@ -167,13 +167,13 @@
         {
           "time": "10:15",
           "category": "U11 t/m U13",
-          "birthYears": [2016,2015],
+          "birthYears": [2016,2015,2014],
           "distance": 1500
         },
         {
           "time": "10:25",
           "category": "U14 t/m U16",
-          "birthYears": [2014,2013,2012,2011],
+          "birthYears": [2013,2012,2011],
           "distance": 2700
         },
         {
@@ -213,13 +213,13 @@
         {
           "time": "10:25",
           "category": "U11 t/m U13",
-          "birthYears": [2016,2015],
+          "birthYears": [2016,2015,2014],
           "distance": 1000
         },
         {
           "time": "10:35",
           "category": "U14 t/m U16",
-          "birthYears": [2014,2013,2012,2011],
+          "birthYears": [2013,2012,2011],
           "distance": 2000
         },
         {
@@ -253,13 +253,13 @@
         {
           "time": "10:30",
           "category": "U8 t/m U13",
-          "birthYears": ["2019 en later",2018,2017,2016,2015],
+          "birthYears": ["2019 en later",2018,2017,2016,2015,2014],
           "distance": 1600
         },
         {
           "time": "10:45",
           "category": "U14 t/m U16",
-          "birthYears": [2014,2013,2012,2011],
+          "birthYears": [2013,2012,2011],
           "distance": 4200
         },
         {
