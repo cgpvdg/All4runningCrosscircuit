@@ -8,9 +8,8 @@ import content from './content.json'
     <section class="panel home-section home-notice">
       <span class="eyebrow">VIJF CROSSEN. ÉÉN INSCHRIJVING.</span>
       <h2>Het gehele All4running Crosscircuit</h2>
-      <p>De inschrijving voor het hele circuit is geopend.</p>
-      <p>De inschrijving voor het All4running Crosscircuit <strong>sluit op <time datetime="2026-10-23T19:00:00+02:00">23 oktober om 19.00 uur</time></strong>.</p>
-      <a class="button" :href="content.registrationUrl" target="_blank" rel="noopener noreferrer">Inschrijven voor het gehele circuit <ArrowUpRight :size="17"/></a>
+      <p>De online inschrijving voor het gehele All4running Crosscircuit is <strong>gesloten</strong>.</p>
+      <p>Inschrijven voor het gehele circuit kan nog wel <strong>ter plekke bij de Dijkgatboscross</strong>.</p>
     </section>
 
     <section class="panel home-section">

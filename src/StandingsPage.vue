@@ -6,8 +6,7 @@ const publicationLabel = new Intl.DateTimeFormat('nl-NL', { timeZone: 'Europe/Am
 
 <template>
   <div class="standings-page">
-    <p class="body-text">Gepubliceerd op <time :datetime="publishedAt">{{ publicationLabel }}</time> (Nederlandse tijd).</p>
-    <p class="body-text">Het klassement na de Parkcross Hoorn. Bekijk per categorie de punten per wedstrijd en het totaal.</p>
+    <p class="body-text">Gepubliceerd op <time :datetime="publishedAt">{{ publicationLabel }}</time></p>
     <label class="standings-jump">Ga naar categorie
       <select @change="$event.target.value && $el.querySelector('#' + $event.target.value)?.scrollIntoView({ behavior: 'smooth', block: 'start' })">
         <option value="">Kies een categorie</option>

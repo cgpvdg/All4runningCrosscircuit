@@ -44,11 +44,11 @@ const safeRegistration = computed(() => /^https:\/\//i.test(content.registration
           </section>
           <section v-else class="page-heading"><div class="eyebrow">HET CIRCUIT / {{ active.label.toUpperCase() }}</div><h1>{{ active.title }}</h1><p>{{ active.intro }}</p></section>
 
-          <section v-if="['kalender', 'uitslagen'].includes(active.slug)" class="race-section">
+          <section v-if="['kalender', 'uitslagen'].includes(active.slug)" class="race-section" :class="{ panel: active.slug === 'uitslagen' }">
             <div class="section-title"><div><span class="eyebrow">{{ active.slug === 'kalender' ? 'ZET ZE IN JE AGENDA' : 'VAN START TOT FINISH' }}</span><h2>{{ active.slug === 'kalender' ? 'De wedstrijden' : 'Uitslagen' }} <span>{{ content.season }}</span></h2></div><span class="count">{{ content.races.length }} wedstrijden</span></div>
             <p class="body-text">{{ active.body }}</p>
             <RaceCalendar v-if="active.slug === 'kalender'" :races="content.races" />
-            <div v-else class="race-list"><article class="race-row" v-for="(race, index) in content.races" :key="index"><span class="race-index">{{ String(index + 1).padStart(2, '0') }}</span><div class="race-info"><h3>{{ race.name }}</h3><span><MapPin :size="13"/>{{ race.location }}</span></div><a v-if="race.resultsUrl" class="race-state" :href="race.resultsUrl" target="_blank" rel="noopener noreferrer" :aria-label="`Bekijk uitslag ${race.name}`">Bekijk uitslag <ArrowUpRight :size="14"/></a><span v-else class="race-state"><CalendarDays :size="14"/>Uitslag volgt</span></article><p v-if="!content.races.length" class="body-text">De wedstrijden worden binnenkort toegevoegd.</p></div>
+            <div v-else class="race-list"><article class="race-row" v-for="(race, index) in content.races" :key="index"><span class="race-index">{{ String(index + 1).padStart(2, '0') }}</span><div class="race-info"><h3>{{ race.name }}</h3><span><MapPin :size="13"/>{{ race.location }}</span></div><a v-if="race.resultsUrl" class="race-state results-button" :href="race.resultsUrl" target="_blank" rel="noopener noreferrer" :aria-label="`Bekijk uitslag ${race.name}`">Bekijk uitslag <ArrowUpRight :size="14"/></a><span v-else class="race-state"><CalendarDays :size="14"/>Uitslag volgt</span></article><p v-if="!content.races.length" class="body-text">De wedstrijden worden binnenkort toegevoegd.</p></div>
           </section>
           <StandingsPage v-else-if="active.slug === 'klassement'" />
           <AboutPage v-else-if="active.slug === 'over'" />
