@@ -39,7 +39,7 @@
       "label": "Uitslagen",
       "title": "Elke finish telt.",
       "intro": "Bekijk hier de uitslagen van het All4running Crosscircuit. Na iedere wedstrijd vind je hier de resultaten.",
-      "body": "Het nieuwe seizoen ligt voor ons. Zodra de eerste wedstrijd is gelopen, verschijnen de uitslagen op deze pagina."
+      "body": "Bekijk de beschikbare uitslagen via de links hieronder. Na iedere wedstrijd voegen we de uitslagen toe."
     },
     {
       "slug": "klassement",
@@ -59,6 +59,7 @@
   "races": [
     {
       "name": "Parkcross Hoorn",
+      "resultsUrl": "https://uitslagen.nl/2026102551342",
       "location": "Hoorn",
       "day": "25",
       "month": "okt",
