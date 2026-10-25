@@ -9,6 +9,7 @@ import RegistrationPage from './RegistrationPage.vue'
 import TermsPage from './TermsPage.vue'
 import HallOfFamePage from './HallOfFamePage.vue'
 import RaceCalendar from './RaceCalendar.vue'
+import StandingsPage from './StandingsPage.vue'
 import all4runningLogo from './assets/all4running.png'
 import univeLogo from './assets/unive.webp'
 import primeraLogo from './assets/primera.png'
@@ -49,6 +50,7 @@ const safeRegistration = computed(() => /^https:\/\//i.test(content.registration
             <RaceCalendar v-if="active.slug === 'kalender'" :races="content.races" />
             <div v-else class="race-list"><article class="race-row" v-for="(race, index) in content.races" :key="index"><span class="race-index">{{ String(index + 1).padStart(2, '0') }}</span><div class="race-info"><h3>{{ race.name }}</h3><span><MapPin :size="13"/>{{ race.location }}</span></div><a v-if="race.resultsUrl" class="race-state" :href="race.resultsUrl" target="_blank" rel="noopener noreferrer" :aria-label="`Bekijk uitslag ${race.name}`">Bekijk uitslag <ArrowUpRight :size="14"/></a><span v-else class="race-state"><CalendarDays :size="14"/>Uitslag volgt</span></article><p v-if="!content.races.length" class="body-text">De wedstrijden worden binnenkort toegevoegd.</p></div>
           </section>
+          <StandingsPage v-else-if="active.slug === 'klassement'" />
           <AboutPage v-else-if="active.slug === 'over'" />
           <RegistrationPage v-else-if="active.slug === 'inschrijven'" />
           <TermsPage v-else-if="active.slug === 'voorwaarden'" />
