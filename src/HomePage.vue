@@ -34,20 +34,29 @@ import flyer from './assets/flyer.png'
       <p class="home-signoff"><em>Organisatie All4running Crosscircuit</em></p>
     </section>
 
-    <section class="panel home-section">
-      <span class="eyebrow">GOED OM TE WETEN</span>
-      <h2>Belangrijke mededelingen</h2>
-      <h3>Prijsuitreiking</h3>
-      <p><strong>Niet aanwezig bij de prijsuitreiking betekent ook geen prijs.</strong></p>
-      <h3>Gevonden voorwerpen</h3>
-      <p>Gevonden voorwerpen worden <strong>niet meer meegenomen naar de eerstvolgende cross</strong>. Je kunt hiervoor navraag doen bij de organiserende vereniging.</p>
-      <h3>Uitslagen en klassement</h3>
-      <p>Wij proberen de informatie op de site steeds zo actueel mogelijk te houden. De uitslagen verwerken en publiceren we zo snel mogelijk op de verschillende websites. Daarbij gaat er soms iets fout. Meld het ons, zodat we dit kunnen aanpassen.</p>
-      <p>Het klassement wordt zo snel mogelijk bijgewerkt en op de website gezet.</p>
-      <h3>Iets niet goed gegaan?</h3>
-      <p>Laat het ons weten. We doen ons best om het op te lossen of te veranderen.</p>
-      <a :href="`mailto:${content.email}`" class="contact-link">Neem contact op <ArrowUpRight :size="16"/></a>
-      <p class="home-signoff">De organisatie van het All4running Crosscircuit.</p>
+    <section class="panel home-section" aria-labelledby="home-announcements-title">
+      <strong class="eyebrow">GOED OM TE WETEN</strong>
+      <h2 id="home-announcements-title">Belangrijke mededelingen</h2>
+      <div class="home-announcements">
+        <div>
+          <h3>Prijsuitreiking</h3>
+          <p><strong>Je kunt je prijs alleen ophalen tijdens de prijsuitreiking.</strong> Ben je er niet bij, dan vervalt je prijs.</p>
+        </div>
+        <div>
+          <h3>Gevonden voorwerpen</h3>
+          <p>Ben je iets kwijtgeraakt tijdens een cross? Vraag bij de organiserende vereniging na of het gevonden is. Gevonden voorwerpen worden <strong>niet meegenomen naar de volgende cross</strong>.</p>
+        </div>
+        <div>
+          <h3>Uitslagen en klassement</h3>
+          <p>Na elke wedstrijd publiceren we de uitslagen en werken we het klassement zo snel mogelijk bij. Klopt je uitslag of je plek in het klassement volgens jou niet? Laat het ons weten, dan kijken we het na.</p>
+        </div>
+        <div>
+          <h3>Vragen of opmerkingen?</h3>
+          <p>Is er iets anders misgegaan of heb je een vraag? Stuur ons gerust een bericht.</p>
+          <a :href="`mailto:${content.email}`" class="contact-link">Neem contact op <ArrowUpRight :size="16" aria-hidden="true"/></a>
+        </div>
+      </div>
+      <p class="home-signoff"><em>De organisatie van het All4running Crosscircuit</em></p>
     </section>
 
     <section class="panel home-section">
@@ -73,6 +82,27 @@ import flyer from './assets/flyer.png'
 </template>
 
 <style scoped>
+.home-announcements {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.home-announcements > div {
+  padding: 1rem;
+  border-radius: 6px;
+  background: #f4f4ee;
+}
+
+.home-announcements h3 {
+  margin: 0;
+}
+
+.home-announcements p {
+  margin: 0.5rem 0 0;
+}
+
 .home-notice > h2 {
   font-size: clamp(1.5rem, 4vw, 2rem);
   line-height: 1.2;
