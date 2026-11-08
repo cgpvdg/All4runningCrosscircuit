@@ -23,14 +23,15 @@ import flyer from './assets/flyer.png'
       <p class="home-intro-callout"><strong>Dus waar wacht je nog op? Kies jouw wedstrijd(en), ga de uitdaging aan en beleef het circuit op jouw manier!</strong></p>
     </section>
 
-    <section class="panel home-section home-notice">
-      <span class="eyebrow">NOG EVEN EXTRA AANDACHT</span>
-      <h2>Inleveren van de chips</h2>
-      <p>Wij missen weer een behoorlijk aantal chips. Dit is ieder jaar een extra kostenpost voor de organisaties. Het aanvullen kost veel werk en geld.</p>
-      <p><strong>Kijk dus nog eens goed rond en lever je chip in.</strong> Je kunt deze opsturen naar onderstaand adres of afgeven bij een van de organiserende verenigingen.</p>
-      <address>Herman Hommen<br>Kooltuinenweg 12<br>1774 NT Slootdorp</address>
-      <p>In Spierdijk <strong>moeten alle chips worden ingeleverd</strong>. Ben je er niet? Stuur de chip dan op naar Herman Hommen, op het adres hierboven.</p>
-      <p class="home-signoff">Organisatie All4running Crosscircuit.</p>
+    <section class="panel home-section home-notice" aria-labelledby="home-notice-title">
+      <strong class="eyebrow">HELP ONS DE CHIPS COMPLEET TE HOUDEN!</strong>
+      <h2 id="home-notice-title">Vergeet je chip niet in te leveren!</h2>
+      <p>Elk jaar blijven er helaas behoorlijk wat chips achter bij deelnemers. Dat is jammer, want deze chips zijn nodig voor de volgende wedstrijden. Het vervangen van ontbrekende chips kost de organiserende verenigingen veel tijd en geld.</p>
+      <p><strong>Heb jij nog een chip thuis liggen? Help ons dan door deze alsnog in te leveren!</strong> Dat kan bij een van de organiserende verenigingen of door de chip op te sturen naar:</p>
+      <address><strong>Herman Hommen</strong><br>Kooltuinenweg 12<br>1774 NT Slootdorp</address>
+      <p class="home-notice-callout"><strong>Let op: bij de wedstrijd in Spierdijk moeten alle chips worden ingeleverd!</strong> Kun je daar niet bij zijn? Stuur je chip dan op naar bovenstaand adres.</p>
+      <p><strong>Alvast bedankt voor je medewerking!</strong> Zo houden we samen het All4running Crosscircuit goed georganiseerd.</p>
+      <p class="home-signoff"><em>Organisatie All4running Crosscircuit</em></p>
     </section>
 
     <section class="panel home-section">
@@ -72,6 +73,22 @@ import flyer from './assets/flyer.png'
 </template>
 
 <style scoped>
+.home-notice > h2 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  line-height: 1.2;
+}
+
+.home-notice > address {
+  width: fit-content;
+  border-radius: 6px;
+}
+
+.home-notice > .home-notice-callout {
+  padding: 0.85rem 1rem;
+  border-left: 3px solid var(--pink);
+  background: #fff4f7;
+}
+
 .home-intro {
   border-top: 4px solid var(--pink);
 }
