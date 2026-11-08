@@ -1,31 +1,54 @@
 [
   {
-    "photographer": "Roy Gorres",
-    "albums": [
+    "name": "Parkcross Hoorn",
+    "date": "25 OKTOBER 2026",
+    "location": "HOORN",
+    "groups": [
       {
-        "title": "Dames + trim heren",
-        "url": "https://myalbum.com/album/4EwG76QX556TLJ/?invite=50890e7a-868f-42cd-96bb-2f061000ed29"
+        "photographer": "Roy Gorres",
+        "albums": [
+          {
+            "title": "Dames + trim heren",
+            "url": "https://myalbum.com/album/4EwG76QX556TLJ/?invite=50890e7a-868f-42cd-96bb-2f061000ed29"
+          },
+          {
+            "title": "Heren + trim dames",
+            "url": "https://myalbum.com/album/5mJWEjd4wJvKej/?invite=342168bc-193f-4d3a-a5e3-7c5c6f8f944e"
+          }
+        ]
       },
       {
-        "title": "Heren + trim dames",
-        "url": "https://myalbum.com/album/5mJWEjd4wJvKej/?invite=342168bc-193f-4d3a-a5e3-7c5c6f8f944e"
+        "photographer": "Sjoerd de Roos",
+        "albums": [
+          {
+            "title": "Jeugd",
+            "url": "https://myalbum.com/album/YmTGKPiArWiPEH"
+          },
+          {
+            "title": "Dames + trim heren",
+            "url": "https://myalbum.com/album/soyTdR5JxEMkvY"
+          },
+          {
+            "title": "Heren + trim dames",
+            "url": "https://myalbum.com/album/ZSiQwWRk2MKW2F"
+          }
+        ]
       }
     ]
   },
   {
-    "photographer": "Sjoerd de Roos",
-    "albums": [
+    "name": "Dijkgatboscross Wieringerwerf",
+    "date": "8 NOVEMBER 2026",
+    "location": "WIERINGERWERF",
+    "groups": [
       {
-        "title": "Jeugd",
-        "url": "https://myalbum.com/album/YmTGKPiArWiPEH"
-      },
-      {
-        "title": "Dames + trim heren",
-        "url": "https://myalbum.com/album/soyTdR5JxEMkvY"
-      },
-      {
-        "title": "Heren + trim dames",
-        "url": "https://myalbum.com/album/ZSiQwWRk2MKW2F"
+        "photographer": "Sjoerd de Vries",
+        "albums": [
+          {
+            "title": "Jeugd",
+            "url": "https://myalbum.com/album/tdqEBhM6SDkLM5"
+          }
+        ]
       }
     ]
   }
