@@ -50,8 +50,8 @@ import flyer from './assets/flyer.png'
           <thead><tr><th scope="col">Categorie</th><th scope="col">Hele circuit</th><th scope="col">Losse wedstrijd</th></tr></thead>
           <tbody>
             <tr><th scope="row">Senioren en masters</th><td>€ 45,00</td><td>€ 12,00</td></tr>
-            <tr><th scope="row">Jeugd t/m 12 jaar</th><td>€ 15,00</td><td>€ 4,00</td></tr>
-            <tr><th scope="row">Jeugd 13 t/m 18 jaar</th><td>€ 23,00</td><td>€ 6,00</td></tr>
+            <tr><th scope="row">Jeugd t/m U13</th><td>€ 15,00</td><td>€ 4,00</td></tr>
+            <tr><th scope="row">Jeugd U14 t/m U20</th><td>€ 23,00</td><td>€ 6,00</td></tr>
           </tbody>
         </table>
       </div>
