@@ -14,6 +14,15 @@ import flyer from './assets/flyer.png'
       <img :src="flyer" width="1115" height="770" alt="All4running Crosscircuit: 25 oktober Hollandia Parkcross, 8 november AVW Dijkgatboscross, 22 november SAV Cross, 6 december Noordkop Duincross en 13 december AV Hera St Georgecross. Prijzenpakket van ruim € 5.000,00." />
     </figure>
 
+    <section class="panel home-section home-intro" aria-labelledby="home-intro-title">
+      <h2 id="home-intro-title">Jouw tempo, jouw uitdaging, jouw circuit!</h2>
+      <p>Zin in een sportieve uitdaging? Trek je hardloopschoenen aan en doe mee! Of je nu gaat voor een snelle tijd, je eigen grenzen wilt verleggen of gewoon lekker wilt hardlopen: <strong>dit circuit is er voor iedereen!</strong></p>
+      <p>Ga jij de uitdaging aan om het <strong>hele circuit</strong> te lopen en een mooie plek in het eindklassement te veroveren? Of kies je liever voor één of meerdere losse wedstrijden? <strong>Alles kan, jij bepaalt!</strong></p>
+      <p>En het mooie is: je hoeft echt geen snelle loper te zijn om mee te doen. Van fanatieke wedstrijdlopers tot enthousiaste recreanten, van snelle kilometervreters tot lopers die lekker hun eigen tempo aanhouden: <strong>iedereen staat aan dezelfde start en gaat voor zijn eigen prestatie!</strong></p>
+      <p>Geniet van de sfeer, moedig elkaar aan, daag jezelf uit en beleef vooral het plezier van samen hardlopen. Want of je nu als eerste, in het midden of als laatste over de finish komt: <strong>iedere finish is een overwinning!</strong></p>
+      <p class="home-intro-callout"><strong>Dus waar wacht je nog op? Kies jouw wedstrijd(en), ga de uitdaging aan en beleef het circuit op jouw manier!</strong></p>
+    </section>
+
     <section class="panel home-section home-notice">
       <span class="eyebrow">NOG EVEN EXTRA AANDACHT</span>
       <h2>Inleveren van de chips</h2>
@@ -61,3 +70,28 @@ import flyer from './assets/flyer.png'
     </section>
   </div>
 </template>
+
+<style scoped>
+.home-intro {
+  border-top: 4px solid var(--pink);
+}
+
+.home-intro > h2 {
+  margin-top: 0;
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  line-height: 1.2;
+}
+
+.home-intro > p {
+  max-width: 72ch;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.home-intro > .home-intro-callout {
+  margin-bottom: 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--pink);
+  background: #f4f4ee;
+}
+</style>
