@@ -59,5 +59,21 @@
         ]
       }
     ]
+  },
+  {
+    "name": "SAV Cross",
+    "date": "22 NOVEMBER 2026",
+    "location": "GROOTEBROEK",
+    "groups": [
+      {
+        "photographer": "Hans Schouten",
+        "albums": [
+          {
+            "title": "Bekijk fotoalbum",
+            "url": "https://myalbum.com/album/KY2Z6YfnpeXukN"
+          }
+        ]
+      }
+    ]
   }
 ]
