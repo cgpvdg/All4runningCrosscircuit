@@ -1,6 +1,6 @@
 <script setup>
 import standings from './standings.json'
-const publishedAt = '2026-11-22T17:22:04+01:00'
+const publishedAt = '2026-11-22T17:26:31+01:00'
 const publicationLabel = new Intl.DateTimeFormat('nl-NL', { timeZone: 'Europe/Amsterdam', dateStyle: 'long', timeStyle: 'short' }).format(new Date(publishedAt))
 </script>
 
