@@ -73,6 +73,23 @@
             "url": "https://myalbum.com/album/KY2Z6YfnpeXukN"
           }
         ]
+      },
+      {
+        "photographer": "Sjoerd de Roos",
+        "albums": [
+          {
+            "title": "Jeugd",
+            "url": "https://myalbum.com/album/fTUKXGwRKMpDcY"
+          },
+          {
+            "title": "Dames + trim heren",
+            "url": "https://myalbum.com/album/q9WBzvdtFGKDYt"
+          },
+          {
+            "title": "Heren + trim dames",
+            "url": "https://myalbum.com/album/yuvnXhJncyhS88"
+          }
+        ]
       }
     ]
   }
